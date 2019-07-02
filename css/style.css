@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(250,250,250);
+}
+h3{
+    font-size: 25px;
+    font-weight: none;
+}
+footer{
+    background-color: rgb(17, 14, 37);
+    color: white;
+}
+.nav1{
+    display: flex;
+    justify-items: stretch;
+    justify-content: space-around;
+    
+}
+.nav2{
+    display:flex;
+    justify-content: space-between;
+}
+.font{
+    font-size: 12px;
+    align-items: center;
+}
+.box1{
+    border: 1px #ccc solid;
+
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px; 
+    background-color: white ;
+    
+}
+.box2{
+    border: 1px #ccc solid;
+    background-color: white ;
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px; 
+    
+}
+.mybutton{
+    text-align: center;
+    position: absolute;
+    right:10px;
+
+}
+.text1{
+    font-weight: bold;
+    text-align: center;
+
+}
+.text2{
+     color: rgb(13, 122, 13);
+     text-align: center;
+}
+.text3{
+    color: darkgray;
+    text-align: center;
+}
+.heading3{
+    padding-top: 10px;
+
+}
+.phones{
+    display: flex;
+    justify-content: space-between;
+}
+.shoes{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+.foot1{
+    list-style: none;
+    padding: 0px;
+
+}
+.foot2{
+    list-style:none;
+}

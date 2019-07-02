@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    
+    .btn1{
+      color: black;
+    }
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+    @media screen and (max-width: 300px) {
+            span.psw {
+                display: block;
+                float: none;
+            }
+        }
+  </style>
+</head>
+<body>
+  <form>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">Username</label>
+        <input type="text" class="form-control" id="inputuname" placeholder="Username">
+      </div>
+      <br>
+      <div class="form-group col-md-6">
+        <label for="inputPassword4">Password</label>
+        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+      </div>
+      <br>
+      <button type="submit" class="btn btn-primary btn1">Sign in</button>
+    </div> 
+  </form>
+ 
+  
+  <script>
+    let uname = document.getElementById('inputuname');
+    let pwd4 = document.getElementById('inputPassword4');
+    let btn2 = document.getElementById('btn1');
+    btn2.onclick = function(){
+      let uname1 = uname.value;
+      let pwd1 = pwd4.value;
+      if(uname1=""){
+        window.alert("Please enter Username");
+      }
+      else if(pwd1=""){
+        window.alert("Please enter Password");
+      }
+    }
+  </script>
+</body>
+  <footer>
+      <p>
+          Don't have an account? <a href="register.html">Register</a>
+          <br><a href="index.html"> Go Back</a>
+          </a> 
+      </p>
+  </footer>
+</html>

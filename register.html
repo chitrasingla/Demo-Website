@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        input[type=text], input[type=password], input[type=email], input[type=phonenumber] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        }
+
+        button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        }
+        @media screen and (max-width: 300px) {
+            span.psw {
+                display: block;
+                float: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Name">
+            </div>
+            <br>
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <br>
+            <div class="form-group col-md-6">
+                <label for="Phone No.">Phone No.</label>
+                <input type="phonenumber" class="form-control" id="Phone No." placeholder="Phone No.">
+            </div>
+            <br>
+            <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+        </div> 
+    </form>
+    <p>
+        Already have account. <a href="signin.html">Sign In</a>  
+        <br><a href="index.html"> Go Back</a> 
+    </p>
+    <script>
+
+    </script>
+</body>
+</html>
